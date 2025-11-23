@@ -6,6 +6,7 @@ import java.time.LocalDate;
 
 @Data
 public class UsuarioRequestDTO {
+    private Long id;
     private String nome;
     private String email;
     private String senhaHash;
